@@ -1,0 +1,48 @@
+.indexpage {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient($palegrey -10%, $almostdark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .welcome {
+    font-size: 60px;
+    font-family: $antontype;
+    color: white;
+  }
+
+  .welcome:hover {
+    color: $palegrey;
+  }
+
+  .testing {
+    color: white;
+    font-family: $montserratthin;
+    font-size: 20px;
+  }
+
+  .start__button {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 5px 0px rgba(255, 255, 255, 0.109);
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: $antontype;
+
+    &:active {
+      animation: changeColor 1s infinite;
+    }
+
+    @keyframes changeColor {
+      from {
+        background-color: rgb(31, 30, 30);
+        border-color: rgb(31, 30, 30);
+        box-shadow: rgb(31, 30, 30);
+      }
+    }
+  }
+}

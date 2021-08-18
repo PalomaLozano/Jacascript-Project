@@ -1,0 +1,22 @@
+.menu--all__page {
+  height: 80px;
+  width: 100%;
+  background-color: $almostdark;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .logotype--javascript {
+    width: 150px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .button--menu__all__page {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}

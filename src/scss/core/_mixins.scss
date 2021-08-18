@@ -1,0 +1,21 @@
+@mixin examples {
+  .example--of__css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .maked--with__css {
+    font-family: $montserratalternates;
+    color: $yellowjavas;
+    font-size: 40px;
+    text-transform: uppercase;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: rgba(200, 250, 251, 0.164);
+    margin-top: 50px;
+    padding: 50px;
+  }
+}
