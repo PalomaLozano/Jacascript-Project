@@ -8,7 +8,7 @@
 
 @mixin explain-title {
   font-family: $monoton;
-  font-size: 40px;
+  font-size: 2rem;
   color: $yellowjavas;
   margin-top: 10px;
   text-align: center;
@@ -17,7 +17,7 @@
 @mixin explain-paragraph {
   text-align: center;
   padding: 10px;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: white;
   font-family: $montserratthin;
   margin-bottom: 10px;
