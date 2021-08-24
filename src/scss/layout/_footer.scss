@@ -1,0 +1,26 @@
+.footer--part {
+  height: 80px;
+  width: 100%;
+  background-color: $yellowjavas;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .hey--javascript {
+    width: 80px;
+    height: 80px;
+  }
+
+  .click--me {
+    font-size: 20px;
+    font-family: $antontype;
+    color: rgb(255, 255, 255);
+    font-family: $lobster;
+  }
+}
+
+.button--hey__logotype {
+  background-color: transparent;
+  border: transparent;
+}
