@@ -1,0 +1,23 @@
+.first--button {
+  background-color: transparent;
+}
+
+.first--know {
+  @include explain-container;
+}
+
+.title--javascript {
+  @include explain-title;
+}
+
+.javascript--paragraph {
+  @include explain-paragraph;
+}
+
+.title--javascript--arrays__and__loops {
+  font-family: $monoton;
+  font-size: 30px;
+  color: $yellowjavas;
+  margin-top: 10px;
+  text-align: center;
+}

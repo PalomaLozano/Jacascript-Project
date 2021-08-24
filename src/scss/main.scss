@@ -1,7 +1,8 @@
 @import "core/variables";
 @import "core/reset";
-@import "layout/header";
-@import "layout/booleans";
+@import "core/mixins";
+@import "layout/1header";
+@import "layout/2secondpart";
 @import "layout/footer";
 @import "pages/mainpage";
 @import "pages/firstpage";

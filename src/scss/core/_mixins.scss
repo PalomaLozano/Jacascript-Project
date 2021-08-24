@@ -1,21 +1,24 @@
-@mixin examples {
-  .example--of__css {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+@mixin explain-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px white;
+  margin: 40px;
+}
 
-  .maked--with__css {
-    font-family: $montserratalternates;
-    color: $yellowjavas;
-    font-size: 40px;
-    text-transform: uppercase;
-    max-width: 500px;
-    min-height: 500px;
-    background-color: rgba(200, 250, 251, 0.164);
-    margin-top: 50px;
-    padding: 50px;
-  }
+@mixin explain-title {
+  font-family: $monoton;
+  font-size: 40px;
+  color: $yellowjavas;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@mixin explain-paragraph {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: $montserratthin;
+  margin-bottom: 10px;
 }
