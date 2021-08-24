@@ -13,6 +13,11 @@
     padding: 50px;
     background-color: $yellowjavas;
     min-height: 160px;
+
+    .img--javascript__head {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .content--box__description {
@@ -37,10 +42,10 @@
 .img--javascript__logo {
   max-width: 100px;
   max-height: 100px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
-.example--of__css {
+/*.example--of__css {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,4 +114,4 @@
   }
 }
 
-//AQUÍ VA UNA ANIMACIÓN DE JAVASCRIPT//
+//AQUÍ VA UNA ANIMACIÓN DE JAVASCRIPT// */

@@ -1,6 +1,11 @@
 @import "core/variables";
 @import "core/reset";
 @import "layout/header";
+@import "layout/booleans";
 @import "layout/footer";
 @import "pages/mainpage";
 @import "pages/firstpage";
+
+//FONTS
+
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");

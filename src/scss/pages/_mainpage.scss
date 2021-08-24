@@ -14,7 +14,7 @@
   }
 
   .welcome:hover {
-    color: $palegrey;
+    color: $yellowjavas;
   }
 
   .testing {
@@ -33,13 +33,13 @@
     background-color: rgb(255, 255, 255);
     font-family: $antontype;
 
-    &:active {
-      animation: changeColor 1s infinite;
+    &:hover {
+      animation: changeColor 2s infinite;
     }
 
     @keyframes changeColor {
       from {
-        background-color: rgb(31, 30, 30);
+        background-color: $yellowjavas;
         border-color: rgb(31, 30, 30);
         box-shadow: rgb(31, 30, 30);
       }
