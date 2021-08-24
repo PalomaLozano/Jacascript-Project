@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";console.log(">> Ready to create Javascript items :)");
