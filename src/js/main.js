@@ -64,7 +64,9 @@ function descriptionCollapsable(){
 }
 
 //Listener
-descriptionTitle.addEventListener('click', descriptionCollapsable);
+descriptionTitle.addEventListener('mouseover', descriptionCollapsable);
+descriptionTitle.addEventListener('mouseout', descriptionCollapsable);
+
 
 
 
@@ -80,7 +82,8 @@ function descriptionCollapsableTwo(){
 }
 
 //Listener
-descriptionTitleTwo.addEventListener('click', descriptionCollapsableTwo);
+descriptionTitleTwo.addEventListener('mouseover', descriptionCollapsableTwo);
+descriptionTitleTwo.addEventListener('mouseout', descriptionCollapsableTwo);
 
 
 
@@ -96,7 +99,8 @@ function descriptionCollapsableThree(){
 }
 
 //Listener
-descriptionTitleThree.addEventListener('click', descriptionCollapsableThree);
+descriptionTitleThree.addEventListener('mouseover', descriptionCollapsableThree);
+descriptionTitleThree.addEventListener('mouseout', descriptionCollapsableThree);
 
 
 //EVENTS
@@ -111,7 +115,8 @@ function descriptionCollapsableFour(){
 }
 
 //Listener
-descriptionTitleFour.addEventListener('click', descriptionCollapsableFour);
+descriptionTitleFour.addEventListener('mouseover', descriptionCollapsableFour);
+descriptionTitleFour.addEventListener('mouseout', descriptionCollapsableFour);
 
 
 //OBJECTS
@@ -126,7 +131,8 @@ function descriptionCollapsableFive(){
 }
 
 //Listener
-descriptionTitleFive.addEventListener('click', descriptionCollapsableFive);
+descriptionTitleFive.addEventListener('mouseover', descriptionCollapsableFive);
+descriptionTitleFive.addEventListener('mouseout', descriptionCollapsableFive);
 
 
 //ARRAYS AND LOOPS
@@ -141,4 +147,5 @@ function descriptionCollapsableSix(){
 }
 
 //Listener
-descriptionTitleSix.addEventListener('click', descriptionCollapsableSix);
+descriptionTitleSix.addEventListener('mouseover', descriptionCollapsableSix);
+descriptionTitleSix.addEventListener('mouseout', descriptionCollapsableSix);
