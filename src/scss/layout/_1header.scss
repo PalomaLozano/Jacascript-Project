@@ -32,16 +32,18 @@
   position: relative;
   width: 120px;
   height: 170px;
-  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  background-color: rgba($color: #ffffff, $alpha: 0.8);
   border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 16px;
 
   .menu--home {
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px rgb(107, 105, 105);
     font-family: $montserratalternates;
-    color: white;
+    color: rgb(107, 105, 105);
     font-size: 18px;
     margin: 10px;
   }
@@ -50,9 +52,9 @@
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px rgb(107, 105, 105);
     font-family: $montserratalternates;
-    color: white;
+    color: rgb(107, 105, 105);
     font-size: 18px;
     margin: 10px;
   }
@@ -61,22 +63,15 @@
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px rgb(107, 105, 105);
     font-family: $montserratalternates;
-    color: white;
+    color: rgb(107, 105, 105);
     font-size: 18px;
     margin: 10px;
   }
-
-  .white--arrow {
-    //background-image: url(./images/arrow.png);
-    height: 30px;
-    width: 30px;
-    transform: rotate(270deg);
-  }
 }
 
-.principal--menu.collapsed {
+.collapsed {
   display: none;
   transition: width 0.3s ease;
 }

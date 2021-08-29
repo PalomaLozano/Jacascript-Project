@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready to create Javascript items :)");
+"use strict";const item1="home",item2="who we are",item3="contact",arrow="white arrow",menu=document.querySelector(".js--dropdown");let lista='<li class="menu--home"> home </li>';lista+=`<li class="menu--who_we_are"> ${item2} </li>`,lista+='<li class="menu--contact"> contact </li>',lista+=`<li class="white--arrow/> ${arrow} </li>`,menu.innerHTML=lista;const menuDropdown=document.querySelector(".js--dropdown");menuDropdown.classList.add(".collapsed"),menuDropdown.classList.remove(".collapsed");
