@@ -1,5 +1,6 @@
 * {
   list-style: none;
+  text-decoration: none;
 }
 .menu--all__page {
   height: 80px;
@@ -30,44 +31,49 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 120px;
-  height: 170px;
-  background-color: rgba($color: #ffffff, $alpha: 0.8);
+  width: 170px;
+  height: 220px;
+  background-color: rgba(90, 108, 167, 0.8);
   border-radius: 10px;
+  border: solid 2px $yellowjavas;
+  box-shadow: 0px 5px 10px 0px;
   margin-left: 20px;
-  margin-top: 16px;
+  margin-top: 30px;
 
   .menu--home {
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px rgb(107, 105, 105);
+    //border-bottom: dotted 2px rgb(255, 255, 255);
     font-family: $montserratalternates;
-    color: rgb(107, 105, 105);
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
   }
 
   .menu--who_we_are {
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px rgb(107, 105, 105);
+    //border-bottom: solid 2px rgb(255, 255, 255);
     font-family: $montserratalternates;
-    color: rgb(107, 105, 105);
+    color: white;
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
   }
 
   .menu--contact {
     text-align: center;
     width: 100px;
     height: 20px;
-    border-bottom: solid 2px rgb(107, 105, 105);
+    //border-bottom: solid 2px rgb(255, 255, 255);
     font-family: $montserratalternates;
-    color: rgb(107, 105, 105);
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
+  }
+  .link-style {
+    color: white;
   }
 }
 
