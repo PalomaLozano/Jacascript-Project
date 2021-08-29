@@ -2,6 +2,26 @@
   background-color: transparent;
 }
 
+.container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.button--second__part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: $yellowjavas;
+  color: $prettyblue;
+  font-family: $antontype;
+  border: solid 2px white;
+  box-shadow: 0 1px 10px 0 rgba(255, 255, 255, 0.8);
+}
+
 .first--know {
   @include explain-container;
 }
@@ -20,4 +40,9 @@
   color: $yellowjavas;
   margin-top: 10px;
   text-align: center;
+}
+
+.collapsed {
+  display: none;
+  transition: width 0.3s ease;
 }
