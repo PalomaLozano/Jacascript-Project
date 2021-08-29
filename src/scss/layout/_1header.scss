@@ -41,37 +41,21 @@
   margin-top: 30px;
 
   .menu--home {
-    text-align: center;
-    width: 100px;
-    height: 20px;
-    //border-bottom: dotted 2px rgb(255, 255, 255);
-    font-family: $montserratalternates;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    margin: 15px;
+    @include menu-links;
+  }
+
+  .menu--lessons {
+    @include menu-links;
   }
 
   .menu--who_we_are {
-    text-align: center;
-    width: 100px;
-    height: 20px;
-    //border-bottom: solid 2px rgb(255, 255, 255);
-    font-family: $montserratalternates;
-    color: white;
-    font-size: 18px;
-    margin: 15px;
+    @include menu-links;
   }
 
   .menu--contact {
-    text-align: center;
-    width: 100px;
-    height: 20px;
-    //border-bottom: solid 2px rgb(255, 255, 255);
-    font-family: $montserratalternates;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    margin: 15px;
+    @include menu-links;
   }
+
   .link-style {
     color: white;
   }
@@ -80,8 +64,4 @@
 .collapsed {
   display: none;
   transition: width 0.3s ease;
-}
-
-.hidden {
-  display: none;
 }

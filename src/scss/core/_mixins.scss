@@ -23,3 +23,13 @@
   font-family: $montserratthin;
   margin-bottom: 10px;
 }
+
+@mixin menu-links {
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  font-family: $montserratalternates;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin: 15px;
+}

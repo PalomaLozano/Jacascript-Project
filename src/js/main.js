@@ -41,10 +41,7 @@ const menuHamb = document.querySelector('.js--hamb');
 
 function handleCollapsable(){
   menuCollapsed.classList.toggle('collapsed');
-  //menuCollapsed.classList.add('js--menu');
 }
-
-
 
 //Listener
 menuHamb.addEventListener('click', handleCollapsable);
